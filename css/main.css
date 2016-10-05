@@ -1,0 +1,60 @@
+html,body{
+  height: 100%;
+  min-height: 100%;
+}
+
+body{
+  position: relative;
+  //background: url("http://www.accreditedschoolsonline.org/wp-content/uploads/2013/11/MAJORS_online-degrees-math-1000x719.jpg")
+}
+
+main{
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+}
+
+section input{
+  direction: rtl;
+  width: 40%;
+  height: 30px;
+}
+
+ul {
+  list-style: none;
+  direction: rtl;
+  width: 192px;
+  vertical-align: top;
+  text-align: left;
+  line-height: 0;
+  font-size: 0;
+}
+
+ul li{
+  line-height: 0;
+  display: inline-block;
+}
+
+
+ul li button{
+  display: inline-block;
+  width: 48px;
+  height: 38px;
+  margin: 2px 2px;
+}
+
+ul+ul{
+  width: 110px;
+}
+
+section{
+  width: 400px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+section ul{
+  display: inline-block;
+}
